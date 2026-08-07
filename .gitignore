@@ -13,21 +13,30 @@
 *.bcf
 *.run.xml
 
-# ===== PDFs compilados =====
-main.pdf
+# ===== Archivos que no deben estar en el repo =====
+main.tex
 Informe_.pdf
+Codigos_Tesis_Completos.html
+Codigos_Tesis_Completos.ipynb
+Correcciones.md
+Guia_estudio_defensa.tex
+HISTORIAL_Y_ESTRATEGIA_DE_ESTUDIO.md
+data.zip
+outputs.zip
+uandresbello.png
+PPT_tesiss.pptx
+Auditoria_Academica_Tesis.pdf
+Guia_estudio_defensa.pdf
 
 # ===== Archivos de Office temporales =====
 ~$*.pptx
 ~$*.docx
 ~$*.xlsx
 
-# ===== PDFs grandes de referencia =====
-Codigos_Tesis_Completos.pdf
-Auditoria_Academica_Tesis.pdf
-
-# ===== Respaldos viejos =====
+# ===== Respaldos y carpetas internas =====
 _respaldo_archivos_viejos/
+Informe_PPT_y_textodelasdiapositivasdelPPT/
+.agents/
 
 # ===== Archivos del sistema =====
 .DS_Store

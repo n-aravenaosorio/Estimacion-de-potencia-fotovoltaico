@@ -1,0 +1,36 @@
+{
+    "note": "PVWatts entrega una simulacion horaria tipo TMY, no datos historicos reales.",
+    "location_requested": {
+        "lat": -33.38000106811523,
+        "lon": -70.77999877929688,
+        "city": "Santiago, Chile"
+    },
+    "system_parameters": {
+        "system_capacity_kw": 1.0,
+        "azimuth": 0,
+        "tilt": 20,
+        "array_type": 1,
+        "module_type": 0,
+        "losses_percent": 14
+    },
+    "dataset_used": "intl",
+    "solar_geometry_used": {
+        "lat": -33.38000106811523,
+        "lon": -70.77999877929688,
+        "note": "GHI reconstruido con la geometria solar de las coordenadas efectivas de Santiago usadas en la consulta."
+    },
+    "station_info": {
+        "lat": -33.38000106811523,
+        "lon": -70.77999877929688,
+        "elev": 476.0,
+        "tz": -4.0,
+        "location": "855740",
+        "city": "Santiago",
+        "state": "CHL",
+        "solar_resource_file": "855740.tm3",
+        "distance": 0,
+        "weather_data_source": "PVWatts International"
+    },
+    "warnings": [],
+    "version": "8.5.0"
+}

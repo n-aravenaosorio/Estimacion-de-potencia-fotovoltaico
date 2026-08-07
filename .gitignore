@@ -1,0 +1,35 @@
+﻿# ===== Archivos temporales de LaTeX =====
+*.aux
+*.lof
+*.log
+*.lot
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+
+# ===== PDFs compilados =====
+main.pdf
+Informe_.pdf
+
+# ===== Archivos de Office temporales =====
+~$*.pptx
+~$*.docx
+~$*.xlsx
+
+# ===== PDFs grandes de referencia =====
+Codigos_Tesis_Completos.pdf
+Auditoria_Academica_Tesis.pdf
+
+# ===== Respaldos viejos =====
+_respaldo_archivos_viejos/
+
+# ===== Archivos del sistema =====
+.DS_Store
+Thumbs.db
+desktop.ini

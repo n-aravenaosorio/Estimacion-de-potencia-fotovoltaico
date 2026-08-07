@@ -1,0 +1,21 @@
+{
+    "input_file": "data\\01_pvwatts_santiago.csv",
+    "output_file": "data\\02_noct_vs_pvwatts_santiago.csv",
+    "description": "Comparación entre potencia DC simulada por PVWatts y modelo NOCT propio para Santiago.",
+    "important_note": "p_ref_dc proviene de PVWatts y corresponde a potencia simulada, no a medición real.",
+    "location": "Santiago, Chile",
+    "noct_parameters": {
+        "pdc0_w": 1000.0,
+        "g_ref": 1000.0,
+        "t_ref": 25.0,
+        "noct": 45.0,
+        "gamma": -0.004,
+        "system_losses_fraction": 0.14
+    },
+    "valid_model_filter": {
+        "ghi_min": 10.0,
+        "poa_min": 10.0,
+        "p_ref_min_for_relative_error": 50.0
+    },
+    "residual_definition": "epsilon = p_ref_dc - p_noct"
+}

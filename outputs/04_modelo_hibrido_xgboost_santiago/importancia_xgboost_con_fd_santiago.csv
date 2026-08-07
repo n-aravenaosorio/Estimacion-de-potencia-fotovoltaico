@@ -1,0 +1,9 @@
+feature,importance
+fd,0.29856962
+wind_speed,0.23894732
+poa,0.1574358
+temperature,0.14249371
+hour_sin,0.061703768
+hour_cos,0.055999752
+month_cos,0.033405468
+month_sin,0.011444523
